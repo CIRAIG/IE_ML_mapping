@@ -11,12 +11,7 @@ typically required in IE projects to connect two databases. This module can assi
 ## Installation
 Install necessary module with pip
 ~~~
-pip install -U sentence-transformers
-~~~
-
-Install necessary module with conda
-~~~
-conda install -c conda-forge sentence-transformers
+pip install -r requirements.txt
 ~~~
 
 ## Getting started
