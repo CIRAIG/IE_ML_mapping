@@ -35,13 +35,35 @@ The module returns:
 
 ## Classifications
 The work for the following classifications has already been done in this module
-- IOCC
-- openIO-Canada
-- NACE
-- exiobase
-- IMPACT World+
+- EIO/LCA databases
+  - ecoinvent 3.8
+  - ecoinvent 3.9
+  - openIO-Canada
+  - exiobase
+  - USEEIO 2.0
+  - GTAP 10
+- Elementary flows classifications
+  - ecoinvent 3.8
+  - ecoinvent 3.9
+  - IMPACT World+ 2.0
+  - USEtox 2
+  - EF 3.0
+  - EF 3.1
+- Product/Industry classifications
+  - IOCC
+  - NACE Rev.1.1
+  - NACE Rev.2
+  - CPA 2008
+  - CPA 2.1
+  - NAPCS 2017
+  - NAPCS 2022
+  - NAICS 2017
+  - NAICS 2022
+  - ISIC Rev.4
+  - CPC 2.1
+  - COICOP 2018
 
-For other classifications, a json file with the list of names of the classification must be generated first.
+If the classification you want to match is not already covered, adding it is not complicated.
 
 ## Credit
 This module is simply applying the work of https://github.com/UKPLab/sentence-transformers
